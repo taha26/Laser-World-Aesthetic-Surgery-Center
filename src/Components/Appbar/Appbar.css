@@ -1,0 +1,43 @@
+.appbar-div{
+    display: flex !important;
+    flex-direction: row !important;
+    /* align-items: center !important; */
+    justify-content: space-between !important;
+    /* border: 1px solid; */
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 15px;
+}
+.appbar-div-1{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.appbar-div-1>span{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.appbar-div-2{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.appbar-div-2-icons{
+    margin-left: 4% !important;
+}
+
+.appbar-div-2>span{
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border-left: 1px solid white;
+    padding-left: 8px;
+    /* border: 1px solid "white" !important; */
+}
