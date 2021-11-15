@@ -2,51 +2,67 @@ import React from 'react'
 
 import Carousel from "react-bootstrap/Carousel"
 
-import Slide1 from "../../Assets/slide1.jpg"
+import Slide1 from "../../Assets/slide-1.jpg"
 
 export const Slider = () => {
     return (
         <div>
-            <Carousel >
+            <Carousel
+            // style={{
+            //     // height: 100
+            //     // ,
+            //     border: "1px solid green"
+            // }} 
+            >
                 <Carousel.Item
-                // style={{ height: "50% !important" }}
+                    style={{
+                        height: "35em"
+                    }}
                 >
                     <img
                         className="d-block w-100"
                         src={Slide1}
                         alt="First slide"
-                    // width="50%"
+                    // width="100%"
                     />
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
-                {/* <Carousel.Item>
+                <Carousel.Item
+                    style={{
+                        height: "35em"
+                    }}
+                >
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
+                        src={Slide1}
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item
+                    style={{
+                        height: "35em"
+                    }}
+                >
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        src={Slide1}
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item> */}
+                    </Carousel.Caption> */}
+                </Carousel.Item>
             </Carousel>
-        </div>
+        </div >
     )
 }

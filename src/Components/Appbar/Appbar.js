@@ -19,7 +19,7 @@ import './Appbar.css'
 export const Appbar = () => {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar style={{ backgroundColor: "#7EC23E" }} position="static">
+            <AppBar style={{ backgroundColor: "#7EC23E" }} id="app-bar" position="static">
                 {/* <Toolbar > */}
                 <div className="appbar-div">
 

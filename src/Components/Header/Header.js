@@ -52,7 +52,7 @@ export const Header = () => {
                         <NavDropdown.Divider />
                         <NavDropdown.Item className="header-dropdown" href="#action/3.2">PRP</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item className="header-dropdown" href="#action/3.3">Dermatology & Transmotrology</NavDropdown.Item>
+                        <NavDropdown.Item className="header-dropdown" href="#action/3.3">Dremotrology & Transmotology</NavDropdown.Item>
                         {/* <NavDropdown.Item className="header-dropdown" href="#action/3.4">Separated link</NavDropdown.Item> */}
                     </NavDropdown>
                     <Nav.Link className="header-link" href="#link">Appointment</Nav.Link>

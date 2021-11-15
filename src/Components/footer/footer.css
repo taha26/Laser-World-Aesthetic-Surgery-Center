@@ -1,0 +1,81 @@
+.flink{
+    /* display: block; */
+    /* border: 1px solid; */
+    /* margin: auto auto; */
+    width: 100% !important;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* text-align: left !important; */
+    /* justify-content: left; */
+    /* margin-left: 2%; */
+    margin-right:3% ;
+}
+
+.flink>h3{
+    font-size:22px;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    /* font-weight: bold; */
+    /* color: gray; */
+}
+
+.containerf{
+    display: inline-block;
+    /* border: 1px solid green !important; */
+    background: rgb(207, 207, 207) !important;
+    /* justify-content: space-evenly !important; */
+    /* width: 90%;
+    align-items: center;
+    align-self: center; */
+}
+
+.main-end{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    /* text-align: ; */
+}
+
+.main-end>h4{
+    font-size: medium;
+    color: grey;
+}
+.container-f{
+    /* border: 1px solid rgb(20, 29, 20); */
+     
+    /* justify-content: space-around !important; */
+    /* width: 90%; */
+    /* color: gray; */
+}
+
+/* .main-flink{
+    display: flex;
+    flex-direction: row;
+
+} */
+
+#f-link{
+    /* border: 1px solid; */
+    /* margin-left: 12%; */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+ .flink{
+     display: none;
+ }   
+ .main-end{
+     display: flex;
+     flex-wrap: wrap !important;
+ }
+}
+
+
+/* //..................................... */
+
