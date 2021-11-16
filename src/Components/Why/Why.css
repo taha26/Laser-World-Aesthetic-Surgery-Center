@@ -1,0 +1,117 @@
+.Why-main{
+/* font-weight: 900;
+font-family: sans-serif;
+font-size: 30px; */
+margin: 10% 13%;
+
+
+}
+
+.Why-main-items-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Why-main-head{
+margin-bottom: 5%;
+/* margin: 10% 13%; */
+}
+.Why-main-head>h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #7EC23E;
+    margin-bottom: 4%;
+    font-size: 3em;
+}
+.Why-main-head>h2{
+    color: rgb(9, 9, 92);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 2%;
+    line-height: 1.2em;
+}
+.Why-main-head>h2>span{
+    color: black;
+}
+
+.Why-main-items{
+    /* border: 1px solid; */
+    text-align: left;
+    margin-left: 5%;
+    /* padding-right: 0%; */
+    /* margin-right: 5%; */
+    font-size: small;
+    font-family: sans-serif;
+    /* width: 100%; */
+}
+.Why-main-items>div{
+    margin-bottom: 4%;
+    
+}
+.Why-main-items>div>p>span{
+    color: #7EC23E;
+    
+}
+.Why-main-items>div>h2{
+    /* color: #7EC23E; */
+    font-weight: bolder;
+    
+}
+
+.why-img{
+    width: 50%;
+    position: relative;
+    left: 10%;
+    /* border: 1px solid; */
+    /* background-color: white !important; */
+    /* top: 60; */
+    /* bottom: -50%; */
+}
+
+.why-icon-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.why-icon-main-div{
+    text-align: center;
+    /* border: 1px solid; */
+    margin-bottom: 5%;
+}
+.why-icon-main-div>img{
+    width: 25%;
+    margin-bottom: 2%;
+}
+.why-icon-main-div>h1{
+    /* width: 25%; */
+    /* margin-bottom: 2%; */
+    font-size: 5em;
+    font-weight: bold;
+}
+.why-icon-main-div>h6{
+    color: grey;
+}
+
+.why-circle-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.why-circle-main-div{
+    text-align: center;
+}
+.why-circle-main-div>img{
+width: 100%;
+}
+.why-circle-main-div>h1{
+    margin-top: 2%;
+    margin-bottom: 8%;
+    color: #7EC23E;
+    font-size: 1.9em;
+}
