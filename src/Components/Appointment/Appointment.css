@@ -1,0 +1,347 @@
+.signPera{
+    font-size: 10px;
+    text-align: left;
+}
+
+.checkSpan{
+    font-size: 11px;
+    /* line-height: 0%; */
+}
+
+.divCheck{
+    /* border: 1px solid red; */
+    text-align: left;
+}
+.emailGrid-Div{
+    text-align: left;
+}
+.emailGrid-Div-text{
+    text-align: left;
+    margin-left: 2%;
+}
+.emailGrid-Div-text>p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .emailGridDiv{
+        /* left: 25%; */
+        /* margin-right: 20%; */
+        /* border: 2px solid green !important; */
+        width: 100% !important;
+        /* align-items: center; */
+    }
+    .datePick{
+        margin-left: 20%;
+        width: 100%;
+        /* text-align: center !important; */
+        /* border: 2px solid green; */
+    }
+    .Gender{
+        margin-left: 34%;
+    }
+}
+
+
+
+/* .............................................. */
+
+
+
+
+.btnLog{
+    color: white !important;
+    width: 35%;
+    background-color: #7EC23E !important;
+    margin: 0 !important;
+    height: 48px !important;
+    padding: 0 36px!important;
+    font-size: 14px !important;
+    line-height: 46px !important;
+    border-width: 1px!important;
+    font-weight: bold !important;
+    margin-top: 2% !important;
+    margin-left: 2% !important;
+}
+/* .btnLog2{
+    color: white !important;
+    width: 50%;
+    background-color: #3b5998 !important;
+    margin: 0 !important;
+    height: 48px !important;
+    padding: 0 36px!important;
+    font-size: 14px !important;
+    line-height: 46px !important;
+    border-width: 1px!important;
+    font-weight: bold !important;
+} */
+/* .btnLog3{
+    color: white !important;
+    width: 50%;
+    background-color: #d34836 !important;
+    margin: 0 !important;
+    height: 48px !important;
+    padding: 0 36px!important;
+    font-size: 14px !important;
+    line-height: 46px !important;
+    border-width: 1px!important;
+    font-weight: bold !important;
+} */
+
+/* .pera{
+    width: 50%;
+    text-align: left;
+} */
+.divLog{
+    /* display: inline !important; */
+
+    /* text-align: center !important; */
+    /* justify-content: center !important; */
+    /* align-self: center; */
+    /* align-content: center !important; */
+    /* align-items: center !important; */
+    /* width: auto !important; */
+
+
+    /* margin-left:  auto !important; */
+    text-align: center !important;
+    /* width: 350px !important; */
+    margin: 50px auto !important;
+}
+
+.divHead{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.divHead >h1{
+    font-size: 22px;
+}
+
+.divHead >p{
+    font-size: 16px;
+    margin-right: 15%;
+}
+
+.divForm{
+    /* position: absolute; */
+    text-align: center !important;
+    /* width: 350px !important; */
+    width: 90%;
+    margin: 50px auto !important;
+    /* height: 150px; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #f8f4f4;
+    /* -webkit-box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.75); */
+    /* -moz-box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.75); */
+    box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.35);
+}
+/* .datepicker {
+    margin: 2px 0px 2px 0px;
+    height: 60px;
+    width: fit-content;
+    padding: 20px 15px 10px;
+    border-bottom: 2px solid "$lightGrey";
+    background-color: #fff;
+    color: #2c2c2c;
+    width: 300px;
+    font-weight: 600;
+  } */
+
+  .pro-div{
+    text-align: center !important;
+    width: 70em !important;
+    display: flex !important;
+    flex-direction: column !important;
+    /* width: 100% !important; */
+/* border: 1px solid red; */
+    /* margin: 50px 50px !important; */
+    /* height: 150px; */
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+    background-color: #f8f4f4;
+    /* -webkit-box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.75); */
+    /* -moz-box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.75); */
+    /* box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.35); */
+  }
+
+  .pro-div-m1{
+      display: flex;
+      flex-direction: row;
+      /* justify-content: center; */
+      /* padding: 10px; */
+  }
+  .pro-div-m1>div{
+      text-align: left;
+      margin-right:15% ;
+      margin-left: 2%;
+      line-height: 0;
+  }
+  .pro-div-m1>div>h6{
+      font-size: 12px !important;
+      font-family: serif;
+      /* text-align: left; */
+      /* margin-right:15% ; */
+      /* margin-left: 2%; */
+
+  }
+  .pro-div-m1>div>p{
+      font-size: 14px !important;
+      font-weight: 600;
+      /* font-family:Arial, Helvetica, sans-serif; */
+      /* text-align: left; */
+      /* margin-right:15% ; */
+      /* margin-left: 2%; */
+
+  }
+  .pro-div-m2{
+      display: flex;
+      flex-direction: row;
+      /* justify-content: center; */
+    }
+    .pro-div-m2>div{
+        /* border: 1px solid; */
+        text-align: left;
+        margin-right:15% ;
+        margin-left: 2%;
+        line-height: 0;
+    }
+    .pro-div-m2>div>h6{
+        font-size: 12px !important;
+        font-family: serif;
+        /* text-align: left; */
+        /* margin-right:15% ; */
+        /* margin-left: 2%; */
+  
+    }
+    .pro-div-m2>div>p{
+        font-size: 14px !important;
+        font-weight: 600;
+        /* font-family:serif; */
+        /* text-align: left; */
+        /* margin-right:15% ; */
+        /* margin-left: 2%; */
+  
+    }
+    .head-pro{
+        text-align: left;
+        margin-left: 2%;
+        font-family:Tahoma;
+    }
+
+    .pro-div-btn{
+        margin-top: 2%;
+        /* border: 1px solid; */
+        text-align: left;
+        /* margin-right:15% ; */
+        margin-left: 1.5%;
+    }
+
+    .btnLog-pro{
+        color: white !important;
+        width: 10%;
+        background-color: #f57224 !important;
+        /* margin: 0 !important; */
+        height: 48px !important;
+        /* padding: 0 36px!important; */
+        font-size: 13px !important;
+        /* line-height: 46px !important; */
+        /* border-width: 1px!important; */
+        font-weight: bold !important;
+        margin-bottom: 2% !important;
+    }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .grid
+    {
+        display: inline !important;
+        align-self: center !important;
+
+        /* flex-direction: column !important; */
+        /* width: 100% !important; */
+        /* border: 1px solid red !important; */
+        /* align-items: center !important; */
+        /* padding-left: 120px !important; */
+
+    }
+    .btnLog{
+        width: 100% !important;
+        /* align-self: center !important; */
+        /* margin-left: 50px !important; */
+    }
+    .btnLog2{
+        width: 100%;
+    }
+    .btnLog3{
+        width: 100%;
+    }
+
+    .divLog{
+        /* align-items: center !important; */
+        /* display: inline-flexbox; */
+        /* width: 100%; */
+        /* margin: auto; */
+        /* text-align: center !important;
+        left: 20px !important; */
+    }
+    .divHead{
+        margin-left: 10px;
+    }
+    .divHead>h1{
+        font-size: 18px;
+    }
+    .divHead >p{
+        font-size: 12px;
+        margin-right: 15%;
+    }
+    .divForm{
+        /* align-content: center; */
+        /* justify-self: center !important; */
+        /* align-items: center !important; */
+        /* margin: 0; */
+        /* align-content: center !important; */
+        /* margin-left: 120px !important; */
+        /* border: 1px solid aqua; */
+        /* padding-left: 100px !important; */
+    }
+    .inputGrid{
+        margin-left: 13% !important;
+        /* border: 1px solid aqua; */
+        /* justify-items: center !important; */
+    /* align-content: center !important; */
+    /* width: 90%; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    }
+    .peraGrid{
+        margin-left: 33% !important;
+    }
+    .btnGrid{
+        margin-left: 23% !important;
+    }
+    .pera{
+        margin-left: 30% !important;
+        font-size: small;
+    }
+    .linkReg{
+        text-decoration: none !important;
+        color: blue !important;
+    }
+    .pro-div-m1{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* padding: 10px; */
+    }
+    .pro-div-m2{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* padding: 10px; */
+    }
+    .pro-div{
+        width: auto !important;
+    }
+}

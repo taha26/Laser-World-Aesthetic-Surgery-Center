@@ -2,28 +2,24 @@ import './App.css';
 
 import { Appbar } from "./Components/Appbar/Appbar"
 import { Header } from "./Components/Header/Header"
-import { Slider } from './Components/Slider/Slider';
-import { TwoPicDiv } from './Components/TwoPicDiv/TwoPicDiv';
-import { AfterBeforeSlider } from './Components/AfterBeforeSlider/AfterBeforeSlider';
-import { Why } from './Components/Why/Why';
-import { InLahore } from './Components/InLahore/InLahore';
-import { FAQ } from './Components/FAQ/FAQ';
+import { Home } from './Components/Home/Home';
+import { Appointment } from './Components/Appointment/Appointment';
 import Footer from './Components/footer/Footer';
 
 
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+
 function App() {
   return (
-    <div className="App">
+    <Router className="App">
       <Appbar />
       <Header />
-      <Slider />
-      <TwoPicDiv />
-      <AfterBeforeSlider />
-      <Why />
-      <InLahore />
-      <FAQ />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/Appointment' component={Appointment} />
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
