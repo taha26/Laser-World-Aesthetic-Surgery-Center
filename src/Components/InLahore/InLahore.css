@@ -1,0 +1,63 @@
+/* .InLahore{
+    margin: 0;
+    padding: 0;
+} */
+/* .InLahore>div{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* position:relative; */
+    /* left: 50%;
+    top: 50%; */
+    /* display: flex; */
+/* } */
+
+.InLahore-main{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    /* justify-content: space-evenly; */
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #d4ddcc;
+}
+.InLahore-main-Flag{
+    width: 250%;
+    /* border: 1px solid; */
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.InLahore-main-Flag>img{
+    width: 100%;
+    /* margin-left: 30%; */
+    /* position: relative;
+    left: 50%; */
+}
+
+.InLahore-main-div{
+    /* border: 1px solid; */
+    /* position: relative;
+    left: 25%; */
+    /* width: auto; */
+    /* margin-left: 20%; */
+    margin-right: 8%;
+}
+.InLahore-main-div>h1{
+    /* border: 1px solid; */
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    
+    color: #7EC23E;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+.InLahore-main-div-typography{
+    line-height: 1.2em !important;
+    font-size: 1.3em !important;
+    color: gray;
+    font-weight:normal;
+    margin-top: 3%;
+       /* margin-right: 35%; */
+    /* margin-bottom: 2%; */
+}

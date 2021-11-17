@@ -1,0 +1,94 @@
+.faq>h1{
+    text-align: center;
+    color: rgb(105, 105, 105);
+}
+.faq{
+    margin-top: 2%;
+    /* margin-bottom: 2%; */
+    /* border: 1px solid red; */
+}
+
+.faq-main{
+    /* font-weight: 900;
+    font-family: sans-serif;
+    font-size: 30px; */
+    margin: 8% 14%;
+    /* border: 1px solid; */
+    
+    
+    }
+    
+    .faq-main-items-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .faq-main-head{
+    margin-bottom: 5%;
+    /* margin: 10% 13%; */
+    /* border: 1px solid aqua; */
+    }
+    /* .faq-main-head>h1{
+        font-weight: bold;
+        font-family: sans-serif;
+        color: #7EC23E;
+        margin-bottom: 4%;
+        font-size: 3em;
+    } */
+    .faq-main-head>h2{
+        color: rgb(9, 9, 92);
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+        /* margin-bottom: 2%; */
+        line-height: 1em;
+        border-left: 3px solid rgb(9, 9, 92) ;
+        border-top: 3px solid rgb(9, 9, 92) ;
+        padding-left: 2%;
+        padding-top: 2%;
+        /* border: 1px solid green; */
+    }
+    .faq-main-head>h2>span{
+        color: black;
+    }
+    
+    .faq-main-items{
+        /* border: 1px solid; */
+        text-align: left;
+        /* margin-left: 5%; */
+        /* padding-right: 0%; */
+        /* margin-right: 5%; */
+        font-size: small;
+        font-family: sans-serif;
+        /* width: 100%; */
+    }
+    .faq-main-items>div{
+        margin-bottom: 2%;
+        
+    }
+    .faq-main-items>div>p>span{
+        color: #7EC23E;
+        
+    }
+    .faq-main-items>div>h2{
+        /* color: #7EC23E; */
+        /* font-weight: bolder; */
+        
+    }
+    
+    .faq-img{
+        width: 25%;
+        position: relative;
+        left: 5%;
+        /* border: 1px solid; */
+        border-right: 3px solid rgb(9, 9, 92) ;
+        border-bottom: 3px solid rgb(9, 9, 92) ;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        /* background-color: white !important; */
+        /* top: 60; */
+        /* bottom: -50%; */
+    }
+    
+    

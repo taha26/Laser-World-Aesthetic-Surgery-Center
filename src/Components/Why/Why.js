@@ -82,10 +82,9 @@ export const Why = () => {
             <div className="why-circle-main">
                 <div className="why-circle-main-div">
                     <img src={cir2} />
-                    <h1>Hair Transplant In
-                        Pakistan
+                    <h1>Hair Transplant In Pakistan
                     </h1>
-                    <Typography variant="subtitle2" gutterBottom component="div">Hair transplant is a surgical
+                    <Typography className="why-circle-main-div-typography" variant="subtitle2" gutterBottom component="div">Hair transplant is a surgical
                         procedure in which hair follicles
                         are moved from the donor site to
                         the receding hairline facing
@@ -93,10 +92,9 @@ export const Why = () => {
                 </div>
                 <div className="why-circle-main-div">
                     <img src={cir1} />
-                    <h1>Liposelection By
-                        Vaser In Pakistan
+                    <h1>Liposelection By Vaser In Pakistan
                     </h1>
-                    <Typography variant="subtitle2" gutterBottom component="div">The LIASC Body Contouring
+                    <Typography className="why-circle-main-div-typography" variant="subtitle2" gutterBottom component="div">The LIASC Body Contouring
                         Centre is an advanced facility to
                         make your body perfect. The
                         Centre offers a range of
@@ -104,9 +102,8 @@ export const Why = () => {
                 </div>
                 <div className="why-circle-main-div">
                     <img src={cir2} />
-                    <h1>Hair Transplant In
-                        Pakistan</h1>
-                    <Typography variant="subtitle2" gutterBottom component="div">Hair transplant is a surgical
+                    <h1>Hair Transplant In Pakistan</h1>
+                    <Typography className="why-circle-main-div-typography" variant="subtitle2" gutterBottom component="div">Hair transplant is a surgical
                         procedure in which hair follicles
                         are moved from the donor site to
                         the receding hairline facing

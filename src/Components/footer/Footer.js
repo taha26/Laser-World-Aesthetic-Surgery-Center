@@ -1,7 +1,7 @@
 import React from "react";
 // import "./sale.module.css";
 // import "./bestime.module.css";
-import Logo from "../../Assets/logo.png";
+import Flogo from "../../Assets/Flogo.png";
 // import Divider from "@mui/material/Divider";
 // import IconButton from "@mui/material/IconButton";
 // import Stack from "@mui/material/Stack";
@@ -54,7 +54,7 @@ export default function Footer() {
             margin: '0% 10% 0% 8%'
           }}
         >
-          <img width='100%' src={Logo} alt="logo" />
+          <img width='100%' src={Flogo} alt="logo" />
           {/* <Stack direction="row" spacing={1}>
             <IconButton aria-label="delete" color="primary">
               <DeleteIcon />
