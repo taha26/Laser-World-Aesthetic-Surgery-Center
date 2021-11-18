@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './Appointment.css'
 
 import Box from "@mui/material/Box";
@@ -37,23 +37,33 @@ import DatePicker from "@mui/lab/DatePicker";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import Checkbox from "@mui/material/Checkbox";
+import { db } from "../../Configuration/Firebase";
+import { ref, set, push, child } from "firebase/database";
+import { UpdateDisabledTwoTone } from "@mui/icons-material";
+// import {
+//     // getDatabase
+//     set, ref, child, update, remove
+// } from "firebase/app";
 
 export const Appointment = () => {
 
-    const [disable, setDisable] = useState(true);
+    // const [disable, setDisable] = useState(true);
     const [gender, setGender] = useState("");
     const [services, setServices] = useState("");
     const [dob, setDob] = useState(new Date());
-    const [checked, setChecked] = useState(false);
-    const [data, setData] = useState([])
+    // const [checked, setChecked] = useState(false);
+    // const [data, setData] = useState([])
     const [values, setValues] = useState({
         email: "",
         // password: "",
         phone: "",
-        fullname: "",
+        name: "",
         // showPassword: false,
     });
-    const [dateTime, setDateTime] = React.useState(new Date('2018-01-01T00:00:00.000Z'));
+    const [dateTime, setDateTime] = useState(new Date('2018-01-01T00:00:00.000Z'));
+    const [message, setMessage] = useState();
+    console.log("DTTTTT--->>>>", dateTime)
+    console.log("Message--->>>>", message)
     // const SignUp = () => {
     //     const auth = getAuth();
     //     createUserWithEmailAndPassword(auth, values.email, values.password)
@@ -105,20 +115,54 @@ export const Appointment = () => {
     // };
     console.log("gender", gender)
     console.log("services", services)
-    console.log("dob", dob)
+    console.log("dob", dob.toLocaleDateString(),)
     console.log("values", values)
 
+
+
+    // const [uid, setKey] = useState()
+    // console.log("KEY--->>>", uid)
+    const submit = () => {
+
+        // setKey(push(child(ref(db), 'appointment/user/')).key);
+
+        // fire.database().ref('/').child("user/").set(values)
+        var uid;
+        set(ref(db, `appointment/user/${uid = push(child(ref(db), 'appointment/user/')).key}`), {
+            name: values.name,
+            email: values.email,
+            phone: values.phone,
+            Gender: gender,
+            dob: dob.toLocaleDateString(),
+            Service: services,
+            AppointmentDate: dateTime.toLocaleDateString(),
+            AppointmentTime: dateTime.toLocaleTimeString(),
+            Message: message,
+            Uid: uid,
+        }).then(() => {
+            // dispatch({type:"SETUSER",payload:data_user})
+            console.log("data send")
+
+        }).catch(function (error) {
+            // Handle Errors here.
+            // var errorCode = error.code;
+            var errorMessage = error.message;
+            // The email of the user's account used.
+            // var email = error.email;
+            // The firebase.auth.AuthCredential type that was used.
+            // var credential = error.credential;
+            // ...
+            console.log(errorMessage)
+            console.log(error)
+        });
+
+
+
+    }
     return (
         <div className="divLog">
             <div className="divHead">
                 <h1>Book Your Appointment</h1>
-                {/* <p>
-                    Already member?
-                    <Link className="linkReg" to="/Login">
-                        Login
-                    </Link>{" "}
-                    here.
-                </p> */}
             </div>
             <div className="divForm">
                 <Box>
@@ -151,34 +195,6 @@ export const Appointment = () => {
                                 </div>
                             </Box>
                             <Box>
-                                {/* <div>
-                                    <FormControl sx={{ m: 1, width: "30ch" }} variant="standard">
-                                        <InputLabel htmlFor="standard-adornment-password">
-                                            Please enter your Password
-                                        </InputLabel>
-                                        <Input
-                                            id="standard-adornment-password"
-                                            type={values.showPassword ? "text" : "password"}
-                                            value={values.password}
-                                            onChange={handleChange("password")}
-                                            endAdornment={
-                                                <InputAdornment position="end">
-                                                    <IconButton
-                                                        aria-label="toggle password visibility"
-                                                        onClick={handleClickShowPassword}
-                                                        onMouseDown={handleMouseDownPassword}
-                                                    >
-                                                        {values.showPassword ? (
-                                                            <Visibility />
-                                                        ) : (
-                                                            <VisibilityOff />
-                                                        )}
-                                                    </IconButton>
-                                                </InputAdornment>
-                                            }
-                                        />
-                                    </FormControl>
-                                </div> */}
                                 <br />
                                 <div className="datePick">
                                     <LocalizationProvider dateAdapter={AdapterDateFns}>
@@ -230,7 +246,7 @@ export const Appointment = () => {
                                         id="standard-textarea"
                                         label="Please enter first and last name"
                                         variant="standard"
-                                        onChange={handleChange("fullname")}
+                                        onChange={handleChange("name")}
                                     />
                                 </div>
                                 <div
@@ -262,20 +278,6 @@ export const Appointment = () => {
                                 </div>
                                 <LocalizationProvider dateAdapter={AdapterDateFns}>
                                     <Stack spacing={3} style={{ marginTop: "2%" }}>
-                                        {/* <MobileDateTimePicker
-                                            value={dateTime}
-                                            onChange={(newValue) => {
-                                                setDateTime(newValue);
-                                            }}
-                                            renderInput={(params) => <TextField {...params} />}
-                                        />
-                                        <DesktopDateTimePicker
-                                            value={dateTime}
-                                            onChange={(newValue) => {
-                                                setDateTime(newValue);
-                                            }}
-                                            renderInput={(params) => <TextField {...params} />}
-                                        /> */}
                                         <DateTimePicker
                                             label="Select Date & Time As Per Your Availibility"
                                             renderInput={(params) => <TextField {...params} />}
@@ -293,19 +295,9 @@ export const Appointment = () => {
                                         minRows={3}
                                         // placeholder="Minimum 3 rows"
                                         style={{ width: "50%", background: "#f8f4f4" }}
+                                        onChange={(e) => setMessage(e.target.value)}
                                     />
                                 </div>
-                                {/* <div className="divCheck">
-                                    <Checkbox
-                                        checked={checked}
-                                        onChange={handleChangeChecked}
-                                        inputProps={{ "aria-label": "controlled" }}
-                                    />
-                                    <span className="checkSpan">
-                                        I want to receive exclusive offers and promotions from
-                                        Jaymart.
-                                    </span>
-                                </div> */}
                             </Box>
 
                             <Stack spacing={2} direction="row">
@@ -313,15 +305,11 @@ export const Appointment = () => {
                                     variant="contained"
                                     // disabled={disable}
                                     className="btnLog"
-                                // onClick={() => SignUp()}
+                                    onClick={() => submit()}
                                 >
                                     Submit
                                 </Button>
                             </Stack>
-                            {/* <p className="signPera">
-                                By clicking “SIGN UP”, I agree to Jaymart's Terms of Use and
-                                Privacy Policy
-                            </p> */}
                         </Grid>
                     </Grid>
                 </Box>
