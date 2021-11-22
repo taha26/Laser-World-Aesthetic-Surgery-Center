@@ -149,7 +149,7 @@ export const Header = () => {
                         {/* <NavDropdown.Item className="header-dropdown" href="#action/3.4">Separated link</NavDropdown.Item> */}
                     </NavDropdown>
                     <Nav.Link onClick={() => history.push('./Appointment')} className="header-link" >Appointment</Nav.Link>
-                    <Nav.Link className="header-link" >Contact us</Nav.Link>
+                    <Nav.Link onClick={() => history.push('./Contact')} className="header-link" >Contact us</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             {/* </Container> */}

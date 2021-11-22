@@ -132,13 +132,13 @@ export const Appointment = () => {
             name: values.name,
             email: values.email,
             phone: values.phone,
-            Gender: gender,
+            gender: gender,
             dob: dob.toLocaleDateString(),
-            Service: services,
-            AppointmentDate: dateTime.toLocaleDateString(),
-            AppointmentTime: dateTime.toLocaleTimeString(),
-            Message: message,
-            Uid: uid,
+            service: services,
+            appointmentDate: dateTime.toLocaleDateString(),
+            appointmentTime: dateTime.toLocaleTimeString(),
+            message: message,
+            uid: uid,
         }).then(() => {
             // dispatch({type:"SETUSER",payload:data_user})
             console.log("data send")

@@ -4,6 +4,7 @@ import { Appbar } from "./Components/Appbar/Appbar"
 import { Header } from "./Components/Header/Header"
 import { Home } from './Components/Home/Home';
 import { Appointment } from './Components/Appointment/Appointment';
+import { Contact } from './Components/Contact/Contact';
 import Footer from './Components/footer/Footer';
 
 
@@ -17,6 +18,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/Appointment' component={Appointment} />
+        <Route exact path='/Contact' component={Contact} />
       </Switch>
       <Footer />
     </Router>

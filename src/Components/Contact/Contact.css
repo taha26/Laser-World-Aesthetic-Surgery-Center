@@ -1,0 +1,72 @@
+.contact-main{
+
+}
+.contact-main-head{
+text-align: center;
+margin-top: 2%;
+margin-bottom: 4%;
+color: rgb(9, 9, 92);
+}
+.contact-main-box-div{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 4%;
+}
+.contact-main-box{
+    border: 2px solid rgb(211, 208, 208);
+    text-align: center;
+    align-items: center !important;
+}
+.contact-main-box>h2{
+    /* border: 2px solid rgb(211, 208, 208); */
+    /* text-align: center; */
+    /* align-items: center !important; */
+    margin-bottom: 8%;
+    color: black;
+}
+.contact-main-box:hover{
+    border: 2px solid #7EC23E;
+}
+
+.contact-main-box-typo{
+    color: black;
+}
+
+.contact-main-tabs-div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.contact-main-tabs-div-divs{
+    /* border: 1px solid; */
+    margin-left: 4%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.contact-main-tabs-div-main{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.btnLog-contact{
+    color: white !important;
+    width: 100%;
+    background-color: #7EC23E !important;
+    margin: 0 !important;
+    height: 48px !important;
+    padding: 0 36px!important;
+    font-size: 14px !important;
+    line-height: 46px !important;
+    border-width: 1px!important;
+    font-weight: bold !important;
+    margin-top: 2% !important;
+    margin-left: 2% !important;
+}
