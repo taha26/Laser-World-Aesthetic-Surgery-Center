@@ -97,48 +97,48 @@ export const Header = () => {
                             </ListItemButton>
                             <Collapse in={open} timeout="auto" unmountOnExit>
                                 <List component="div" disablePadding>
-                                    <ListItemButton >
+                                    <ListItemButton onClick={() => history.push('/Microneedling')} >
                                         {/* <ListItemIcon>
                                             <StarBorder />
                                         </ListItemIcon> */}
                                         <ListItemText primary="Microneedling" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/Hydrofacial')}>
                                         <ListItemText primary="Hydrofacial" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/PRPHair')}>
 
                                         <ListItemText primary="PRP Hair" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/FaceScalp')}>
 
                                         <ListItemText primary="Face & Scalp" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/ChemicalPeels')}>
 
                                         <ListItemText primary="Chemical Peels" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/Whitening')}>
 
                                         <ListItemText primary="Whitening Injections" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/Acne')}>
 
                                         <ListItemText primary="Acne Treatment" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/Filler')}>
 
                                         <ListItemText primary="Filler" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/Botox')}>
 
                                         <ListItemText primary="Botox" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/Electro')}>
 
                                         <ListItemText primary="Electro" />
                                     </ListItemButton>
-                                    <ListItemButton>
+                                    <ListItemButton onClick={() => history.push('/Absorbtion')}>
 
                                         <ListItemText primary="Absorbtion" />
                                     </ListItemButton>
