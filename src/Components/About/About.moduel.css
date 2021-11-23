@@ -1,0 +1,110 @@
+/* .InLahore{
+    margin: 0;
+    padding: 0;
+} */
+/* .InLahore>div{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* position:relative; */
+    /* left: 50%;
+    top: 50%; */
+    /* display: flex; */
+/* } */
+
+.About-main{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    /* justify-content: space-evenly; */
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /* background: #000000; */
+}
+.About-main-Flag{
+    /* width: 250%; */
+    /* border: 1px solid; */
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.About-main-Flag>img{
+    width: 100%;
+    /* margin-left: 30%; */
+    /* position: relative;
+    left: 50%; */
+}
+
+.About-main-div{
+    /* border: 1px solid; */
+    /* position: relative;
+    left: 25%; */
+    /* width: auto; */
+
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.About-main-div>h1{
+    /* border: 1px solid; */
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    
+    /* color: #7EC23E; */
+    font-size: 2.1em;
+    font-weight: bold;
+}
+.About-main-div>h1>span{
+    /* border: 1px solid; */
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    
+    color: #7EC23E ;
+    /* font-size: 2.1em;
+    font-weight: bold; */
+}
+
+.About-main-div-typography{
+    line-height: 1.2em !important;
+    font-size: 1.2em !important;
+    /* color: gray; */
+    font-weight: 400 !important;
+    /* font-weight:normal; */
+    margin-top: 3% !important;
+       /* margin-right: 35%; */
+    margin-bottom: 2% !important;
+}
+
+
+.About-main-div-Grid{
+    margin: 4% 4%;
+}
+
+.About-main-div-Grid-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5% ;
+    /* justify-content: left !important; */
+}
+.About-main-div-Grid-div>img{
+width: 10%;
+}
+.About-main-div-Grid-div>h6{
+/* width: 10%; */
+margin-left: 2%;
+}
+
+.About-main-div-Grid-div-img{
+    width: 100%;
+}
+
+.About-main-div-Grid-box-grid-item{
+    border: none !important;
+    box-shadow: none !important;
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* .InLahore-main{
+        display: none;
+    } */
+}

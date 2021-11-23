@@ -73,11 +73,11 @@ export const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link className="header-link" onClick={() => history.push('/')}>Home</Nav.Link>
-                    <Nav.Link className="header-link" >About</Nav.Link>
+                    <Nav.Link className="header-link" onClick={() => history.push('/About')} >About</Nav.Link>
                     <NavDropdown className="header-link" title="Services" id="basic-nav-dropdown">
-                        <NavDropdown.Item className="header-dropdown" href="#action/3.1">FUE</NavDropdown.Item>
+                        <NavDropdown.Item className="header-dropdown" onClick={() => history.push('/FUE')}>FUE</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item className="header-dropdown" href="#action/3.2">PRP</NavDropdown.Item>
+                        <NavDropdown.Item className="header-dropdown" onClick={() => history.push('/PRP')}>PRP</NavDropdown.Item>
                         <NavDropdown.Divider />
                         {/* <NavDropdown.Item 
                         className="header-dropdown"

@@ -2,14 +2,14 @@
     /* margin-top: 5%; */
     /* display: inline-block; */
     /* border: 1px solid grey; */
-    /* width: 50%; */
+    width: 100%;
     
 }
 
 .silder{
     /* padding: 0 !important; */
     /* border: 1px solid blue; */
-    /* width: 10% !important; */
+    width: 100% !important;
     /* margin-left: 5% !important;
     margin-right: 5% !important; */
     /* height: 2em !important; */
@@ -18,11 +18,33 @@
 
 
 .Asilder{
-    /* width: 100% !important; */
-/* margin-left: -90px !important; */
-    /* margin-right: -30em !important; */
+    width: 100% !important;
+/* margin-left: 20% !important;
+    margin-right: 30em !important; */
     /* border: 10px solid red !important; */
 }
+.AfterBeforeSliderImage{
+    width: 100%;
+    height: 23em;
+    /* margin-left: 40% !important;
+    margin-right: 50% !important; */
+    /* border: 1px solid red !important; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around !important; */
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+
+
+
+
+
+
+
+
+
 
 .AfterBeforeSliderHeading{
     margin-top: 4%;
@@ -42,23 +64,11 @@
     color: #7EC23E;
 }
 
-.AfterBeforeSliderImage{
-    width: 100%;
-    height: 23em;
-    /* margin-left: 4% !important; */
-    /* margin-right: -180% !important; */
-    /* border: 1px solid red !important; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-around !important; */
-    /* margin: 0; */
-    /* padding: 0; */
-}
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .silder{
-        width: 360px !important;
+        /* width: 360px !important; */
         /* margin-left: 22%; */
         /* height: "0em" ; */
         /* border: 1px solid green; */
@@ -84,7 +94,7 @@
     }
     .cardSli{
         /* border: 1px solid rgb(110, 109, 109); */
-        width: 95%;
+        /* width: 95%; */
         /* margin-left: 12% !important; */
         /* margin-right: 12% !important; */
     }
