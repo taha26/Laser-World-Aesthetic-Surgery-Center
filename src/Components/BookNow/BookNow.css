@@ -1,33 +1,38 @@
 .btnLogBookNow{
     color: white !important;
-    width: 100%;
+    width: 70%;
     background: rgba(255, 255, 255,.2) !important;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5) !important;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, .5) !important; */
     /* margin: 0 !important; */
     height: 100% !important;
     padding: 0 36px!important;
     font-size: 23px !important;
     /* line-height: 46px !important; */
-    border: 1px solid white !important;
+    border: 1px solid rgb(151, 151, 151) !important;
     border-radius: 0% !important;
     font-weight: lighter !important;
     margin-top: 15% !important;
-    margin-left: 2% !important;
+    margin-left: 13% !important;
     margin-right: 2% !important;
+    /* align-items: center !important; */
+}
+.btnLogBookNow:hover{
+    background: rgba(165, 165, 165, 0.4) !important;
 }
 
 .booknow-box{
     position: absolute;
-    left: 77%;
+    left: 70%;
     top: 30% !important;
-    background: rgba(255, 255, 255,.2) !important;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5) !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+    box-shadow:0px 0px 1px rgb(0 0 0 / 50%) !important;
     text-align: center !important;
 }
 
 .booknow-box>h1{
  color: white;
  margin-top: 8%;
+ /* font-size: 25px; */
 }
 
 .booknow-box>h4{

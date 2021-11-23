@@ -15,11 +15,11 @@ export const BookNow = () => {
     return (
         <Box
             sx={{
-                width: 300,
+                width: 350,
                 height: 350,
                 // backgroundColor: 'primary.dark',
                 borderRadius: "2%",
-                opacity: [0.9, 0.8, 0.7],
+                // opacity: [0.9, 0.8, 0.7],
                 '&:hover': {
                     // backgroundColor: 'gray',
                     // opacity: 'none',

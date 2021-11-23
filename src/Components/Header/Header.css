@@ -28,6 +28,7 @@
     padding-bottom: 15%;
     /* align-items: center !important; */
     border-radius: 5%;
+    /* margin-right: 5% !important; */
 
     /* padding: 10% 0 10% 0 !important; */
 }
@@ -64,6 +65,8 @@
 
 #basic-navbar-nav{
     /* border: 1px solid; */
+    /* margin: auto auto; */
+    /* margin-right: 5%; */
     /* margin: 0% 20% 0% 10% !important; */
     /* padding-top: 2%;
     padding-bottom: 2%; */
