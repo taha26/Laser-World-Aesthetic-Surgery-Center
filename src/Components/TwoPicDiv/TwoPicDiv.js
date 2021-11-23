@@ -9,7 +9,7 @@ import "./TwoPicDiv.css"
 export const TwoPicDiv = () => {
     return (
         <div className="TwoPicDiv-main">
-            <div className="image">
+            <div className="image" id="IMG">
 
 
                 <img src={pic1}
@@ -34,7 +34,7 @@ export const TwoPicDiv = () => {
                     {/* <hr /> */}
                 </div>
             </div>
-            <div className="image">
+            <div className="image" id="IMG1">
 
 
                 <img src={pic2}

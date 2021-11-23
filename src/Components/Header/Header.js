@@ -67,7 +67,7 @@ export const Header = () => {
         <Navbar className="header-navbar" bg="light" expand="lg">
             {/* <Container className="header-container"> */}
             <Navbar.Brand className="header-container-img" href="#home">
-                <img alt="logo" width="100%" src={Logo} />
+                <img alt="logo" width="60%" src={Logo} />
             </Navbar.Brand>
             <Navbar.Toggle className="abc" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

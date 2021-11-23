@@ -126,11 +126,11 @@ width: 100%;
     /* margin-top: 2%;
     margin-bottom: 8%;
     color: #7EC23E;
-    font-size: 2em;
-    font-weight: bold; */
+    font-size: 2em; */
+    font-weight:400 !important;
     text-align: left;
     margin-left: 22% !important;
     margin-right: 15% !important;
     line-height: 1.4em !important;
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
 }

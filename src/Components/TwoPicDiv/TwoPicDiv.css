@@ -2,7 +2,9 @@
     display: flex;
     /* flex-direction: row; */
     justify-content: space-evenly;
-    margin: 10% 0;
+    margin: 6% 0;
+    /* margin-left: 10px;
+    margin-right: 20px; */
     /* border: 10px solid red !important; */
 }
 /* .TwoPicDiv-img{
@@ -14,7 +16,7 @@
 
 .image {
     position: relative;
-    width: 35%;
+    width: 28%;
     border-radius: 2%;
     /* border: 10px solid red !important; */
 }
@@ -69,7 +71,7 @@
 
 .image__title {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
     line-height: 50px;
     padding-bottom: 5%;
@@ -84,6 +86,11 @@
     font-size: 1.25em;
     margin-top: 0.25em;
 } */
+
+#IMG{
+    margin-left: 20px;
+    margin-right: -12%;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .image__title{

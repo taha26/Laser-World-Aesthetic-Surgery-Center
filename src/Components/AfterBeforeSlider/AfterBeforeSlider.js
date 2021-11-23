@@ -49,8 +49,8 @@ export const AfterBeforeSlider = () => {
                         // width: "1200px",
                         // height: "100px" ,
                         // border: '1px solid',
-                        marginLeft: "15%",
-                        marginRight: "15%",
+                        // marginLeft: "15%",
+                        // marginRight: "15%",
                     }}
                 >
                     <AliceCarousel

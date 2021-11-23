@@ -11,6 +11,7 @@
     /* display: flex !important;
     flex-direction: row !important; */
     /* justify-content: space-around !important; */
+    height: 8em !important;
 }
 
 .header-container-img{
